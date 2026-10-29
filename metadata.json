@@ -1,0 +1,6 @@
+{
+  "name": "miel's bakery",
+  "description": "Premium small-batch desserts in Dhaka, Bangladesh. Handcrafted tiramisu, fudgy brownie tubs, and luxury dessert boxes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

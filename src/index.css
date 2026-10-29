@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-cocoa: #4B2E1F;
+    --color-dark-choco: #29180F;
+    --color-milk-choco: #765039;
+    --color-cream: #F7F1E7;
+    --color-ivory: #FFFCF6;
+    --color-caramel: #C8A783;
+    --color-coffee: #60402D;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #F7F1E7;
+    color: #29180F;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-typewriter {
+    font-family: 'Courier Prime', Courier, monospace;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F1E7;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8A783;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #765039;
+}
+
+/* Smooth transitions */
+.transition-luxury {
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Subtle grain overlay for authentic photography mood */
+.grain-overlay {
+  background-image: radial-gradient(rgba(41, 24, 15, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
